@@ -234,7 +234,7 @@ function dbConnect(){
   
   $dsn = 'mysql:dbname=stadium;host=localhost;charset=utf8';
   $user = 'root';
-  $password ='root';
+  $password = 'root';
   $options = array(
        // SQL実行失敗時にはエラーコードのみ設定
     PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING,
